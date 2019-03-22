@@ -3,6 +3,7 @@ class Hash
     # code goes here
     list_of_keys = []
     argument.each do |arg|
-      
+      map do |key, value|
+        
   end
 end
