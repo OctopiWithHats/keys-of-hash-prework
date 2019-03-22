@@ -5,6 +5,9 @@ class Hash
     argument.each do |arg|
       map do |key, value|
         if arg == value
-          
+          list_of_keys << key
+        end
+      end
+    end
   end
 end
